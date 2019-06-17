@@ -1,0 +1,16 @@
+#[["zs", "zs123"], ["ls", "ls123"]]
+test_login:
+  test_login_001:
+    username: "zs"
+    password: "zs123"
+  test_login_002:
+    username: "zs"
+    password: "zs456"
+
+test_login123:
+  -
+    - "1"
+    - "2"
+  -
+    - "3"
+    - "4"
